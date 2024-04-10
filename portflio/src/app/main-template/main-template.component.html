@@ -1,0 +1,26 @@
+
+<main class="relative">
+    <section class="">
+        <app-logo />
+    </section>
+    
+    <section>
+        <section class="md:flex h-[90vh]">
+
+            <section class="h-auto hidden md:flex md:flex-col md:bg-background_primary">
+                <div class="flex-grow">
+                    <!-- Your content here -->
+                </div>
+                        <app-contact />
+            </section>
+
+            <ng-content />
+
+        </section>
+
+        <section class="md:hidden">
+            <app-contact />
+        </section>
+        
+   </section>
+</main>

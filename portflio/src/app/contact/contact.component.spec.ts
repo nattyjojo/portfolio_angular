@@ -20,4 +20,8 @@ describe('ContactComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should return the current year', () => {
+    const currentYear = component.getCurrentYear();
+    expect(currentYear).toBe(new Date().getFullYear());
+  });
 });

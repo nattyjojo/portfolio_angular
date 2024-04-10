@@ -15,8 +15,8 @@ module.exports = {
       },
       width: {
         contact_width: "20vw",
-        profile_width: "20vw",
-        Profile_detail_width: "60vw",
+        profile_width: "30vw",
+        Profile_detail_width: "40vw",
       },
       fontFamily: {
         primary: ["Roboto", "sans-serif"],
